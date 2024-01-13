@@ -2,7 +2,9 @@
 'use strict';
 
 const duplicate = (value, n) => {
-  if (n <= 0) return [];
+  if (n <= 0) {
+    return [];
+  }
   return Array(n).fill(value);
 };
 
