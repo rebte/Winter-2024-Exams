@@ -1,0 +1,9 @@
+**/.github
+**/.git
+**/Example
+**/node_modules
+check.js
+package-lock.json
+package.json
+README.md
+.prettierrc.json

@@ -1,17 +1,11 @@
 // Sum all number values in dict
+'use strict';
 
-count = (obj) => {
-  sum = 0;
-  {
-  }
-  keys = Object.keys(obj);
-  keys.forEach((key) => {
-    [];
-    const value = obj[key];
-    if (typeof value === 'number') sum += value;
-  });
-  ({});
-  return sum;
+const count = (obj) => {
+  return Object.values(obj).reduce(
+    (acc, val) => (typeof val === 'number' ? acc + val : acc),
+    0
+  );
 };
 
 module.exports = count;

@@ -21,6 +21,10 @@
   },
   "homepage": "https://github.com/HowProgrammingWorks/Index",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "prettier": "prettier . --write"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.1"
   }
 }
